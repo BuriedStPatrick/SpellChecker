@@ -1,18 +1,19 @@
 <html>
 	<head>
 		<title>The Grammar Nazi - Look professional like a real Nazi</title>
-		<link rel="stylesheet" href="css/main.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Lobster|Roboto' rel='stylesheet' type='text/css'>
+		<link href="css/libs/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	</head>
 	<body>
-		hello
-		<div ng-app="grammarapp">
+		<div class="app" ng-app="grammarapp">
 			<ng-view></ng-view>
 		</div>
 	</body>
-	<script src="/model/grammar.js"></script>
+	<script src="model/grammar.js"></script>
 	<script src="libs/angular.min.js"></script>
 	<script src="app.module.js"></script>
 	<script src="app.route.js"></script>
-	<script src="components/home/homeController.js"></script>
+	<script src="components/grammar/commaController.js"></script>
 	<script src="libs/angular-route.min.js"></script>
 </html>

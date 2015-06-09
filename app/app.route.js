@@ -1,12 +1,12 @@
 app.config(['$routeProvider', function($routeProvider){
 	$routeProvider
 	.when('/',{
-		templateUrl : 'components/home/homeView.html',
-		controller : 'HomeController'
+		templateUrl : 'components/grammar/commaView.html',
+		controller : 'CommaController'
 	})
-	.when('/Home', {
-		templateUrl : 'components/home/homeView.html',
-		controller : 'HomeController'
+	.when('/Comma', {
+		templateUrl : 'components/grammar/commaView.html',
+		controller : 'CommaController'
 	})
 	.otherwise({redirectTo : '/'});
 }]);
